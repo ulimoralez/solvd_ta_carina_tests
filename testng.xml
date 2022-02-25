@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.solvd.web.demoblaze.utils.ListenerTest" />
+        <listener class-name="com.solvd.web.demoblaze.utils.AnnotationTransformer" />
+    </listeners>
+    <test verbose="2"
+          name="/Users/ulisesmoralez/Documents/SOLVD/carina-ulises">
+        <classes>
+            <class name="com.solvd.web.demoblaze.HeaderTests"/>
+            <class name="com.solvd.web.demoblaze.CartTest"/>
+            <class name="com.solvd.web.demoblaze.CategoriesTest"/>
+            <class name="com.solvd.web.demoblaze.SingInSignUpTest"/>
+        </classes>
+    </test>
+</suite>
