@@ -1,10 +1,8 @@
-package com.solvd.web.demoblaze.account;
+package com.solvd.web.demoblaze;
 
 import com.github.javafaker.Faker;
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
 import com.solvd.web.demoblaze.HomePage;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

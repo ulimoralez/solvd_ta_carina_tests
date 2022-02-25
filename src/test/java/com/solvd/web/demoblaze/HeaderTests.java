@@ -1,4 +1,4 @@
-package com.solvd.web.demoblaze.header;
+package com.solvd.web.demoblaze;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
 import com.solvd.web.demoblaze.HomePage;
